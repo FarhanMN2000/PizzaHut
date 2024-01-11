@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    overflow: hidden;
+}
+
+/* Header section */
+
+/* Nav Bar */
+.navbar{
+    box-shadow: 3px 3px 5px rgb(rgb(0, 0, 0, 0.1));
+}
+.block img{
+    width: 155px;
+    height: 30px;
+}
+.sign-block span{
+    text-underline-position:below;
+    border-bottom:2px dotted;
+}
+/* nav bar ends */
+
+/* banner image */
+
+main{
+    overflow: hidden;
+}
+.banner{
+    overflow: hidden;
+}
+.main-image{
+    background-image: url(A-Block-Pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 75vh;
+    background-position: center;
+
+}
+
+.location-button {
+    border-top: none;
+}
+
+/* GreenView all button */
+.GreenButton{
+    border-radius: 25rem;
+    height: 100%;
+    color:white;
+    background-color: green;
+}
+
+.bottom-content p{
+    font-size: 11px;
+    color: #78838C;
+}
+.bottom-content img{
+    width: 8%;
+    background-color: white;
+    
+}
